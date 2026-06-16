@@ -1,7 +1,7 @@
 {
   "name": "Magic Chrono",
   "short_name": "MagicChrono",
-  "description": "Magic Chrono Brain Storm TargetPosition V4.",
+  "description": "Magic Chrono Brain Storm V5 debug.",
   "lang": "fr",
   "start_url": ".",
   "scope": "./",

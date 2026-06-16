@@ -1,24 +1,7 @@
-# Magic Chrono - Brain Storm TargetPosition V4
+# Magic Chrono - Brain Storm V5 debug
 
-Cette version lit le JSON réel :
+Cette version n'utilise plus 36 quand `TargetPosition` vaut 0. Elle affiche sur l'écran PIN la valeur lue : `TP=...`.
 
-```json
-{
-  "text": "",
-  "birthday": "",
-  "full_peek": "",
-  "Message1": "",
-  "Message2": "",
-  "TargetPosition": "0",
-  "timeUpdated": "..."
-}
-```
+Si tu vois `TP=0 (json_TargetPosition)`, l'app lit bien l'API mais l'API ne fournit pas encore de position.
 
-## Logique
-
-- `TargetPosition` est maintenant la priorité absolue pour la position.
-- Si `TargetPosition` vaut `0`, vide, ou absent, l'app utilise `36` par défaut.
-- `birthday` est lu pour détecter l'anniversaire.
-- Si `birthday` est vide, Brain Storm passe en mode position seulement.
-
-Important : dans ton exemple `TargetPosition` vaut `0`, donc il n'y a pas encore de position disponible côté API.
+Si tu vois `Erreur API`, le navigateur bloque ou ne reçoit pas l'API.
