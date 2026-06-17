@@ -1,9 +1,9 @@
 {
   "name": "Magic Chrono",
   "short_name": "MagicChrono",
-  "description": "Magic Chrono Brain Storm V11 final.",
+  "description": "Magic Chrono Brain Storm Manual V13.",
   "lang": "fr",
-  "start_url": ".",
+  "start_url": "./?v=13",
   "scope": "./",
   "display": "fullscreen",
   "orientation": "portrait",
